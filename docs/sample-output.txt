@@ -1,0 +1,116 @@
+===== RED CURRICULAR =====
+Convencion: competencia dependiente -> competencia prerrequisito
+
+C1  Sistemas numericos                            -> (sin prerrequisito interno)
+C2  Operaciones y propiedades                     -> C1 
+C3  Fracciones, decimales y porcentajes           -> C1 C2 
+C4  Expresiones numericas                         -> C1 C2 
+C5  Estrategias de calculo                        -> C1 C2 C4 
+C6  Magnitudes y unidades de medida               -> C1 C2 
+C7  Matematica financiera                         -> C2 C3 C6 
+C8  Argumentacion numerica                        -> C1 C2 T2 T4 
+R1  Patrones y regularidades                      -> C1 C4 
+R2  Expresiones algebraicas                       -> C1 C2 R1 
+R3  Ecuaciones e inecuaciones                     -> C2 C3 R2 
+R4  Funciones                                     -> C3 R2 R3 
+R5  Sistemas de ecuaciones                        -> R3 R4 
+R6  Modelacion algebraica                         -> R2 R3 R4 
+R7  Argumentacion algebraica                      -> R2 R3 T2 T4 
+G1  Figuras geometricas                           -> C1 
+G2  Propiedades geometricas                       -> C2 G1 
+G3  Geometria analitica                           -> R2 R4 G2 
+G4  Transformaciones geometricas                  -> G1 G2 
+G5  Medicion                                      -> C1 C2 G1 
+G6  Trigonometria                                 -> C3 R4 G2 G5 
+G7  Argumentacion geometrica                      -> G1 G2 T2 T4 
+D1  Recoleccion de datos                          -> C1 
+D2  Representacion grafica                        -> C1 G5 D1 
+D3  Estadistica descriptiva                       -> C2 C3 D1 D2 
+D4  Probabilidad                                  -> C2 C3 D3 
+D5  Inferencia estadistica                        -> R3 D3 D4 
+D6  Argumentacion estadistica                     -> D2 D3 T2 T4 
+T1  Modelacion matematica                         -> C1 C2 C3 R4 G5 D3 T2 
+T2  Razonamiento logico                           -> C1 C2 R1 G1 D1 
+T3  Resolucion de problemas                       -> C1 C2 C3 R3 R4 G5 D3 D4 T1 T2 T4 
+T4  Comunicacion matematica                       -> C8 R7 G7 D2 D6 
+
+===== CONVERGENCIA DEL METODO DE LA POTENCIA =====
+Iteracion   Error L1       Observacion
+1           7.983713e-01   Primera iteracion
+5           4.386092e-02   
+10          9.424759e-04   
+20          7.584137e-07   Convergencia alcanzada
+
+===== RANKING FINAL SEGUN PAGERANK =====
+Puesto  Nodo    Competencia                                  PageRank
+1       C1      Sistemas numericos                           0.254591
+2       C2      Operaciones y propiedades                    0.113641
+3       C3      Fracciones, decimales y porcentajes          0.046915
+4       G1      Figuras geometricas                          0.041673
+5       R2      Expresiones algebraicas                      0.039012
+6       R3      Ecuaciones e inecuaciones                    0.034880
+7       D1      Recoleccion de datos                         0.028308
+8       R4      Funciones                                    0.027620
+9       T2      Razonamiento logico                          0.027293
+10      R1      Patrones y regularidades                     0.027143
+11      C4      Expresiones numericas                        0.026230
+12      T4      Comunicacion matematica                      0.025795
+13      G2      Propiedades geometricas                      0.025359
+14      D3      Estadistica descriptiva                      0.024856
+15      D2      Representacion grafica                       0.024482
+16      G5      Medicion                                     0.023202
+17      C8      Argumentacion numerica                       0.015835
+18      D6      Argumentacion estadistica                    0.015835
+19      G7      Argumentacion geometrica                     0.015835
+20      R7      Argumentacion algebraica                     0.015835
+21      D4      Probabilidad                                 0.015579
+22      C6      Magnitudes y unidades de medida              0.014694
+23      T1      Modelacion matematica                        0.012335
+24      C5      Estrategias de calculo                       0.011450
+25      C7      Matematica financiera                        0.011450
+26      D5      Inferencia estadistica                       0.011450
+27      G3      Geometria analitica                          0.011450
+28      G4      Transformaciones geometricas                 0.011450
+29      G6      Trigonometria                                0.011450
+30      R5      Sistemas de ecuaciones                       0.011450
+31      R6      Modelacion algebraica                        0.011450
+32      T3      Resolucion de problemas                      0.011450
+
+Suma de PageRank = 1.000000
+
+Iteraciones realizadas: 20
+Error final: 7.584137e-07
+
+===== FILAS PARA TABLA LATEX =====
+1 & $C1$ & Sistemas numericos & 0.254591 \\
+2 & $C2$ & Operaciones y propiedades & 0.113641 \\
+3 & $C3$ & Fracciones, decimales y porcentajes & 0.046915 \\
+4 & $G1$ & Figuras geometricas & 0.041673 \\
+5 & $R2$ & Expresiones algebraicas & 0.039012 \\
+6 & $R3$ & Ecuaciones e inecuaciones & 0.034880 \\
+7 & $D1$ & Recoleccion de datos & 0.028308 \\
+8 & $R4$ & Funciones & 0.027620 \\
+9 & $T2$ & Razonamiento logico & 0.027293 \\
+10 & $R1$ & Patrones y regularidades & 0.027143 \\
+11 & $C4$ & Expresiones numericas & 0.026230 \\
+12 & $T4$ & Comunicacion matematica & 0.025795 \\
+13 & $G2$ & Propiedades geometricas & 0.025359 \\
+14 & $D3$ & Estadistica descriptiva & 0.024856 \\
+15 & $D2$ & Representacion grafica & 0.024482 \\
+16 & $G5$ & Medicion & 0.023202 \\
+17 & $C8$ & Argumentacion numerica & 0.015835 \\
+18 & $D6$ & Argumentacion estadistica & 0.015835 \\
+19 & $G7$ & Argumentacion geometrica & 0.015835 \\
+20 & $R7$ & Argumentacion algebraica & 0.015835 \\
+21 & $D4$ & Probabilidad & 0.015579 \\
+22 & $C6$ & Magnitudes y unidades de medida & 0.014694 \\
+23 & $T1$ & Modelacion matematica & 0.012335 \\
+24 & $C5$ & Estrategias de calculo & 0.011450 \\
+25 & $C7$ & Matematica financiera & 0.011450 \\
+26 & $D5$ & Inferencia estadistica & 0.011450 \\
+27 & $G3$ & Geometria analitica & 0.011450 \\
+28 & $G4$ & Transformaciones geometricas & 0.011450 \\
+29 & $G6$ & Trigonometria & 0.011450 \\
+30 & $R5$ & Sistemas de ecuaciones & 0.011450 \\
+31 & $R6$ & Modelacion algebraica & 0.011450 \\
+32 & $T3$ & Resolucion de problemas & 0.011450 \\

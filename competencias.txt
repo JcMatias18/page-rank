@@ -1,0 +1,33 @@
+# codigo|competencia
+C1|Sistemas numericos
+C2|Operaciones y propiedades
+C3|Fracciones, decimales y porcentajes
+C4|Expresiones numericas
+C5|Estrategias de calculo
+C6|Magnitudes y unidades de medida
+C7|Matematica financiera
+C8|Argumentacion numerica
+R1|Patrones y regularidades
+R2|Expresiones algebraicas
+R3|Ecuaciones e inecuaciones
+R4|Funciones
+R5|Sistemas de ecuaciones
+R6|Modelacion algebraica
+R7|Argumentacion algebraica
+G1|Figuras geometricas
+G2|Propiedades geometricas
+G3|Geometria analitica
+G4|Transformaciones geometricas
+G5|Medicion
+G6|Trigonometria
+G7|Argumentacion geometrica
+D1|Recoleccion de datos
+D2|Representacion grafica
+D3|Estadistica descriptiva
+D4|Probabilidad
+D5|Inferencia estadistica
+D6|Argumentacion estadistica
+T1|Modelacion matematica
+T2|Razonamiento logico
+T3|Resolucion de problemas
+T4|Comunicacion matematica
